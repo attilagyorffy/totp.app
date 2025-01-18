@@ -1,1 +1,67 @@
-{"abbr":"ES","code":"es","title":"Español","meta":{"title":"Generador de contraseñas de un solo uso / TOTP (Google Authenticator) en línea","desc":"{{appname}} es un generador de contraseñas de un solo uso basado en el algoritmo TOTP (RFC 6238). Una alternativa web a la aplicación Google Authenticator para dispositivos móviles.","keys":"totp, google authenticator, en línea, aplicación, códigos de un solo uso"},"e":{"invalidSecret":"Código secreto inválido","invalidName":"Nombre de la aplicación inválido","appExists":"La aplicación <b>{{name}}</b> ya tiene este código secreto","backupBadFile":"Error en el archivo de respaldo","storedConfigError":"Error en los datos guardados","decryptFailed":"No se puede descifrar, probablemente la contraseña es incorrecta"},"m":{"copiedToBuffer":"Copiado al portapapeles","appAdded":"Aplicación <b>{{name}}</b> añadida","appDeleted":"Aplicación <b>{{name}}</b> eliminada","appSaved":"Aplicación <b>{{name}}</b> guardada","codeCopied":"Código para <b>{{name}}</b> copiado al portapapeles","secretCopied":"Código secreto para <b>{{name}}</b> copiado al portapapeles","backupRestored":"Respaldo restaurado<br/>Añadido: <b>{{added}}</b><br/>Actualizado: <b>{{updated}}</b><br/>Errores: <b>{{errors}}</b>","scanned":"Escaneado","encryptUpdated":"Configuración de cifrado actualizada"},"q":{"appDel":"¿Realmente quieres eliminar <b>{{name}}</b>?"},"k":{"appInstall":"Instalar aplicación","yes":"Sí","no":"No","add":"Añadir","save":"Guardar","cancel":"Cancelar","delete":"Eliminar","config":"Configurar","configandsort":"Configurar o reordenar","copy":"Copiar al portapapeles","backup":"Descargar respaldo","backupEncrypted":"Descargar respaldo cifrado","encryption":"Cifrado","encrypt":"Cifrar","decrypt":"Descifrar","restore":"Restaurar desde respaldo","showSecret":"Mostrar código secreto","hideSecret":"Ocultar código secreto","scanqr":"Escanear código QR"},"f":{"search":"Buscar","appSecret":"Código secreto","appName":"Nombre de la aplicación","encPass":"Contraseña de cifrado"},"t":{"encryption":"Cifrado","add":"Nueva aplicación","edit":"Configuración","about":"{{appname}} es un generador de contraseñas de un solo uso basado en el algoritmo TOTP (RFC 6238). Una alternativa web a la aplicación Google Authenticator para dispositivos móviles. {{appname}} no tiene ningún código en el servidor. Es un conjunto de scripts estáticos que funcionan solo en tu navegador. Por lo tanto, no hay registro y todos tus datos se almacenan solo en tu navegador, sin acceso externo.<br/><br/><b>Conexión:</b> Una aplicación que use contraseñas de un solo uso basadas en el algoritmo TOTP debe proporcionarte un código secreto. Añade este código secreto a {{appname}}. El nombre de la aplicación puede ser cualquier cosa; este campo sirve para que identifiques para qué aplicación se generan las contraseñas. Si estás conectando un sitio web, puedes usar su nombre como el nombre de la aplicación. Una vez configurada, {{appname}} generará contraseñas cada 30 segundos.<br/><br/><b>Uso:</b> Añade {{appname}} a tus favoritos. Cuando la aplicación conectada te pida una contraseña de un solo uso, abre {{appname}}, consulta la contraseña actual para esa aplicación e introdúcela en el campo correspondiente. Si la aplicación y {{appname}} están en el mismo dispositivo, simplemente haz clic en la contraseña y se copiará al portapapeles; luego pégala en el campo correspondiente. Si la contraseña cambia después de copiarla, no necesitas copiarla de nuevo, ya que la mayoría de las aplicaciones aceptan la contraseña anterior durante unos 30-60 segundos.<br/><br/><b>¡Importante!</b> Todos los datos de {{appname}} se almacenan solo en la memoria de tu navegador. Si limpias la caché o reinstalas el navegador, todos tus datos en {{appname}} serán eliminados. Asegúrate de guardar tus códigos secretos en un lugar seguro y de hacer copias de seguridad periódicas.<br/><br/><b>¡Importante!</b> El algoritmo TOTP depende del tiempo actual. Asegúrate de que la hora de tu dispositivo esté correctamente configurada.<br/><br/>Restaurar desde un respaldo reemplazará los nombres de las aplicaciones existentes, añadirá las nuevas y no eliminará nada.<br/><br/><b>Privacidad:</b> {{appname}} puede recopilar únicamente estadísticas de visitas anonimizadas y agregadas. No recopilamos ningún dato personal.","appInstall":"Instala la aplicación para acceder a los códigos TOTP incluso sin conexión a Internet. Es una aplicación PWA que se instala desde el navegador sin necesidad de descargas. Simplemente haz clic en el botón de instalación.","aboutEncryption":"La base de datos de tus códigos TOTP se almacena en texto plano en la memoria de tu navegador. Si un virus infecta tu dispositivo, podría robar estos datos. Para mayor seguridad, puedes cifrarlos con una contraseña.<br/><br/><b>¡Importante!</b> Una vez activado el cifrado, se te pedirá la contraseña cada vez que abras {{appname}}.<br/><br/><b>¡Importante!</b> El archivo de respaldo también se cifrará con esta contraseña. Necesitarás proporcionarla para restaurar un respaldo.<br/><br/><b>¡Importante!</b> La contraseña de cifrado no se puede recuperar.<br/><br/>Para desactivar el cifrado, guarda una contraseña vacía.","dataEncrypted":"Los datos están cifrados. Introduce la contraseña para descifrarlos. Si cancelas, la configuración no se cargará y podría eliminarse de la memoria del navegador.","fileEncrypted":"El archivo <b>{{file}}</b> está cifrado. Introduce la contraseña para descifrarlo. Si cancelas, la configuración no se cargará."}}
+{
+  "abbr": "ES",
+  "code": "es",
+  "title": "Español",
+  "meta": {
+    "title": "Generador de contraseñas de un solo uso / TOTP (Google Authenticator) en línea",
+    "desc": "{{appname}} es un generador de contraseñas de un solo uso basado en el algoritmo TOTP (RFC 6238). Una alternativa web a la aplicación Google Authenticator para dispositivos móviles.",
+    "keys": "totp, google authenticator, en línea, aplicación, códigos de un solo uso"
+  },
+  "e": {
+    "invalidSecret": "Código secreto inválido",
+    "invalidName": "Nombre de la aplicación inválido",
+    "appExists": "La aplicación <b>{{name}}</b> ya tiene este código secreto",
+    "backupBadFile": "Error en el archivo de respaldo",
+    "storedConfigError": "Error en los datos guardados",
+    "decryptFailed": "No se puede descifrar, probablemente la contraseña es incorrecta"
+  },
+  "m": {
+    "copiedToBuffer": "Copiado al portapapeles",
+    "appAdded": "Aplicación <b>{{name}}</b> añadida",
+    "appDeleted": "Aplicación <b>{{name}}</b> eliminada",
+    "appSaved": "Aplicación <b>{{name}}</b> guardada",
+    "codeCopied": "Código para <b>{{name}}</b> copiado al portapapeles",
+    "secretCopied": "Código secreto para <b>{{name}}</b> copiado al portapapeles",
+    "backupRestored": "Respaldo restaurado<br/>Añadido: <b>{{added}}</b><br/>Actualizado: <b>{{updated}}</b><br/>Errores: <b>{{errors}}</b>",
+    "scanned": "Escaneado",
+    "encryptUpdated": "Configuración de cifrado actualizada"
+  },
+  "q": { "appDel": "¿Realmente quieres eliminar <b>{{name}}</b>?" },
+  "k": {
+    "appInstall": "Instalar aplicación",
+    "yes": "Sí",
+    "no": "No",
+    "add": "Añadir",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "config": "Configurar",
+    "configandsort": "Configurar o reordenar",
+    "copy": "Copiar al portapapeles",
+    "backup": "Descargar respaldo",
+    "backupEncrypted": "Descargar respaldo cifrado",
+    "encryption": "Cifrado",
+    "encrypt": "Cifrar",
+    "decrypt": "Descifrar",
+    "restore": "Restaurar desde respaldo",
+    "showSecret": "Mostrar código secreto",
+    "hideSecret": "Ocultar código secreto",
+    "scanqr": "Escanear código QR"
+  },
+  "f": {
+    "search": "Buscar",
+    "appSecret": "Código secreto",
+    "appName": "Nombre de la aplicación",
+    "encPass": "Contraseña de cifrado"
+  },
+  "t": {
+    "encryption": "Cifrado",
+    "add": "Nueva aplicación",
+    "edit": "Configuración",
+    "about": "{{appname}} es un generador de contraseñas de un solo uso basado en el algoritmo TOTP (RFC 6238). Una alternativa web a la aplicación Google Authenticator para dispositivos móviles. {{appname}} no tiene ningún código en el servidor. Es un conjunto de scripts estáticos que funcionan solo en tu navegador. Por lo tanto, no hay registro y todos tus datos se almacenan solo en tu navegador, sin acceso externo.<br/><br/><b>Conexión:</b> Una aplicación que use contraseñas de un solo uso basadas en el algoritmo TOTP debe proporcionarte un código secreto. Añade este código secreto a {{appname}}. El nombre de la aplicación puede ser cualquier cosa; este campo sirve para que identifiques para qué aplicación se generan las contraseñas. Si estás conectando un sitio web, puedes usar su nombre como el nombre de la aplicación. Una vez configurada, {{appname}} generará contraseñas cada 30 segundos.<br/><br/><b>Uso:</b> Añade {{appname}} a tus favoritos. Cuando la aplicación conectada te pida una contraseña de un solo uso, abre {{appname}}, consulta la contraseña actual para esa aplicación e introdúcela en el campo correspondiente. Si la aplicación y {{appname}} están en el mismo dispositivo, simplemente haz clic en la contraseña y se copiará al portapapeles; luego pégala en el campo correspondiente. Si la contraseña cambia después de copiarla, no necesitas copiarla de nuevo, ya que la mayoría de las aplicaciones aceptan la contraseña anterior durante unos 30-60 segundos.<br/><br/><b>¡Importante!</b> Todos los datos de {{appname}} se almacenan solo en la memoria de tu navegador. Si limpias la caché o reinstalas el navegador, todos tus datos en {{appname}} serán eliminados. Asegúrate de guardar tus códigos secretos en un lugar seguro y de hacer copias de seguridad periódicas.<br/><br/><b>¡Importante!</b> El algoritmo TOTP depende del tiempo actual. Asegúrate de que la hora de tu dispositivo esté correctamente configurada.<br/><br/>Restaurar desde un respaldo reemplazará los nombres de las aplicaciones existentes, añadirá las nuevas y no eliminará nada.<br/><br/><b>Privacidad:</b> {{appname}} puede recopilar únicamente estadísticas de visitas anonimizadas y agregadas. No recopilamos ningún dato personal.",
+    "appInstall": "Instala la aplicación para acceder a los códigos TOTP incluso sin conexión a Internet. Es una aplicación PWA que se instala desde el navegador sin necesidad de descargas. Simplemente haz clic en el botón de instalación.",
+    "aboutEncryption": "La base de datos de tus códigos TOTP se almacena en texto plano en la memoria de tu navegador. Si un virus infecta tu dispositivo, podría robar estos datos. Para mayor seguridad, puedes cifrarlos con una contraseña.<br/><br/><b>¡Importante!</b> Una vez activado el cifrado, se te pedirá la contraseña cada vez que abras {{appname}}.<br/><br/><b>¡Importante!</b> El archivo de respaldo también se cifrará con esta contraseña. Necesitarás proporcionarla para restaurar un respaldo.<br/><br/><b>¡Importante!</b> La contraseña de cifrado no se puede recuperar.<br/><br/>Para desactivar el cifrado, guarda una contraseña vacía.",
+    "dataEncrypted": "Los datos están cifrados. Introduce la contraseña para descifrarlos. Si cancelas, la configuración no se cargará y podría eliminarse de la memoria del navegador.",
+    "fileEncrypted": "El archivo <b>{{file}}</b> está cifrado. Introduce la contraseña para descifrarlo. Si cancelas, la configuración no se cargará."
+  }
+}

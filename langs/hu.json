@@ -1,1 +1,67 @@
-{"abbr":"HU","code":"hu","title":"Magyar","meta":{"title":"Online egyszeri jelszógenerátor / TOTP (Google Authenticator) Online","desc":"{{appname}} – egy egyszeri jelszavak online generátora, amely TOTP (RFC 6238) algoritmuson alapul. A Google Authenticator mobilalkalmazás webalapú analógja.","keys":"totp, google authenticator, egyszeri jelszavak, online, számára Ügyfélkapu"},"e":{"invalidSecret":"Érvénytelen titkos kulcs","invalidName":"Érvénytelen alkalmazásnév","appExists":"A <b>{{name}}</b> meglévő alkalmazásnak ugyanaz a titkossága","backupBadFile":"Hiba a biztonsági mentés fájljában","storedConfigError":"Tárolt konfigurációs hiba","decryptFailed":"Nem sikerült visszafejteni, valószínűleg a jelszó helytelen"},"m":{"copiedToBuffer":"Pufferbe másolva","appAdded":"A <b>{{name}}</b> alkalmazás hozzáadva","appDeleted":"A <b>{{name}}</b> alkalmazás törölve","appSaved":"A <b>{{name}}</b> alkalmazás elmentve","codeCopied":"A <b>{{name}}</b> kódja a vágólapra másolva","secretCopied":"A <b>{{name}}</b> titkos kódja a vágólapra másolva","backupRestored":"Biztonsági mentés visszaállítva<br/>Hozzáadva: <b>{{added}}</b><br/>Frissítve: <b>{{updated}}</b><br/>Hibák: <b>{{errors}}</b>","scanned":"Beolvasva","encryptUpdated":"A titkosítási beállítások frissültek"},"q":{"appDel":"Biztosan törlöd a <b>{{name}}</b>?"},"k":{"appInstall":"Telepítse az alkalmazást","yes":"Igen","no":"Nem","add":"Hozzáadás","save":"Mentése","cancel":"Mégsem","delete":"Töröl","config":"Konfigurálás","configandsort":"Konfigurálás vagy áthelyezés","copy":"Másolás pufferbe","backup":"Biztonsági másolat letöltése","backupEncrypted":"Töltse le a titkosított biztonsági másolatot","encryption":"Titkosítás","encrypt":"Titkosítás","decrypt":"Dekódolás","restore":"Biztonsági másolat visszaállítása","showSecret":"Mutasd a titkot","hideSecret":"Titok elrejtése","scanqr":"QR-kód beolvasása"},"f":{"search":"Keresés","appSecret":"Titkos kulcs","appName":"Alkalmazás neve","encPass":"Titkosító jelszó"},"t":{"encryption":"Titkosítás","add":"Új alkalmazás","edit":"Konfigurálás","about":"{{appname}} - egy online generátor egyszeri jelszavak TOTP (RFC 6238) algoritmus alapján. A Google Authenticator mobilalkalmazás webalapú analógja. A {{appname}} nem rendelkezik szerverkóddal. Ez statikus szkriptek halmaza, amelyek csak a böngészőben futnak. Ezért nincs regisztrációnk, és minden adata csak az Ön böngészőjében tárolódik, és az Ön böngészőjén kívül senki sem fér hozzá.<br/><br/><b>Kapcsolódás:</b> A TOTP algoritmuson alapuló, egyszeri jelszavakat használó alkalmazásnak titkos kulcsot kell megadnia. Adja hozzá ezt a titkos kulcsot a {{appname}}-hez. Az alkalmazás neve tetszőlegesen megadható, ez a mező azért szükséges, hogy megértse, melyik alkalmazáshoz generál egyszeri jelszót. Ha webhelyet csatlakoztat, megadhatja ennek a webhelynek a nevét az alkalmazás nevében. Az alkalmazás hozzáadása után a {{appname}} 30 másodpercenként egyszeri jelszavakat generál ehhez az alkalmazáshoz.<br/><br/><b>Használat:</b> Adja hozzá a {{appname}}-t a böngésző könyvjelzőihez. Amikor a csatlakoztatott alkalmazás egyszeri jelszót kér, lépjen a {{appname}} oldalra, nézze meg az alkalmazás aktuális egyszeri jelszavát, és írja be az alkalmazás szükséges mezőjébe. Ha a csatlakoztatott alkalmazás és a {{appname}} ugyanazon az eszközön működik, akkor egyszerűen kattintson az aktuális egyszeri jelszóra, az átmásolódik a vágólapra, majd egyszerűen illessze be a jelszót az alkalmazás kívánt mezőjébe. Ha az egyszeri jelszó közvetlenül a másolás után megváltozott, nem kell újra másolnia, a legtöbb alkalmazás körülbelül 30-60 másodpercig veszi a korábbi egyszeri jelszót.<br/><br/><b>Vigyázat!</b> Minden {{appname}} adat csak az Ön böngészőjének memóriájában tárolódik (a szerverünkön nem tárolódnak). Amikor törli a böngésző gyorsítótárát vagy újratelepíti a böngészőt, a {{appname}}-ben tárolt összes adata törlődik. Ne felejtse el biztonságos helyre menteni titkos kulcsait, és biztonsági másolatot készíteni róluk, hogy szükség esetén visszaállíthassa alkalmazásait {{appname}}-re.<br/><br/><b>Vigyázat!</b> A TOTP algoritmus az aktuális időhöz van kötve. A {{appname}} csak akkor állítja elő a helyes egyszeri jelszavakat, ha az eszközön az idő megfelelően van beállítva.<br/><br/>Az alkalmazások biztonsági mentésből történő visszaállítása lecseréli a meglévő alkalmazások neveit, hozzáadja a hiányzó alkalmazásokat, és nem töröl semmit.<br/><br/><b>Adatvédelem:</b> A {{appname}} csak anonim és összesített látogatottsági statisztikákat gyűjthet. Személyes adatokat nem gyűjtünk.","appInstall":"Telepítse alkalmazásunkat a TOTP-kódok internet nélküli eléréséhez. Ez egy PWA alkalmazás, amelyet a böngésző telepít, letöltés nélkül, csak kattintson a telepítés gombra.","aboutEncryption":"A TOTP kódok adatbázisa nyílt formában a böngésző memóriájában tárolódik. Ha vírus kerül a készülékére, képes lesz ellopni ezeket az adatokat. A további védelem érdekében jelszóval titkosíthatja a böngészőjében tárolt adatokat.<br/><br/><b>Vigyázat!</b> A titkosítás engedélyezése után minden alkalommal meg kell adnia a megadott jelszót, amikor bejelentkezik a {{appname}} szolgáltatásba.<br/><br/><b>Vigyázat!</b> Ha a titkosítás engedélyezve van, a biztonsági mentési fájl is titkosítva lesz a megadott jelszóval. Biztonsági másolatból történő visszaállításkor ezt a jelszót kell megadnia.<br/><br/><b>Vigyázat!</b> A titkosítási jelszót nem lehet visszaállítani.<br/><br/>A titkosítás letiltásához mentse a jelszót üresen.","dataEncrypted":"Az adatok titkosítva vannak. Kérjük, adja meg a jelszót a visszafejtéshez. Ha megszakítja, a konfiguráció nem töltődik be, és törlődik a böngésző memóriájából.","fileEncrypted":"Az <b>{{file}}</b> fájl titkosítva van. Kérjük, adja meg a jelszót a visszafejtéshez. Ha megszakítja, a konfiguráció nem töltődik be."}}
+{
+  "abbr": "HU",
+  "code": "hu",
+  "title": "Magyar",
+  "meta": {
+    "title": "Online egyszeri jelszógenerátor / TOTP (Google Authenticator) Online",
+    "desc": "{{appname}} – egy egyszeri jelszavak online generátora, amely TOTP (RFC 6238) algoritmuson alapul. A Google Authenticator mobilalkalmazás webalapú analógja.",
+    "keys": "totp, google authenticator, egyszeri jelszavak, online, számára Ügyfélkapu"
+  },
+  "e": {
+    "invalidSecret": "Érvénytelen titkos kulcs",
+    "invalidName": "Érvénytelen alkalmazásnév",
+    "appExists": "A <b>{{name}}</b> meglévő alkalmazásnak ugyanaz a titkossága",
+    "backupBadFile": "Hiba a biztonsági mentés fájljában",
+    "storedConfigError": "Tárolt konfigurációs hiba",
+    "decryptFailed": "Nem sikerült visszafejteni, valószínűleg a jelszó helytelen"
+  },
+  "m": {
+    "copiedToBuffer": "Pufferbe másolva",
+    "appAdded": "A <b>{{name}}</b> alkalmazás hozzáadva",
+    "appDeleted": "A <b>{{name}}</b> alkalmazás törölve",
+    "appSaved": "A <b>{{name}}</b> alkalmazás elmentve",
+    "codeCopied": "A <b>{{name}}</b> kódja a vágólapra másolva",
+    "secretCopied": "A <b>{{name}}</b> titkos kódja a vágólapra másolva",
+    "backupRestored": "Biztonsági mentés visszaállítva<br/>Hozzáadva: <b>{{added}}</b><br/>Frissítve: <b>{{updated}}</b><br/>Hibák: <b>{{errors}}</b>",
+    "scanned": "Beolvasva",
+    "encryptUpdated": "A titkosítási beállítások frissültek"
+  },
+  "q": { "appDel": "Biztosan törlöd a <b>{{name}}</b>?" },
+  "k": {
+    "appInstall": "Telepítse az alkalmazást",
+    "yes": "Igen",
+    "no": "Nem",
+    "add": "Hozzáadás",
+    "save": "Mentése",
+    "cancel": "Mégsem",
+    "delete": "Töröl",
+    "config": "Konfigurálás",
+    "configandsort": "Konfigurálás vagy áthelyezés",
+    "copy": "Másolás pufferbe",
+    "backup": "Biztonsági másolat letöltése",
+    "backupEncrypted": "Töltse le a titkosított biztonsági másolatot",
+    "encryption": "Titkosítás",
+    "encrypt": "Titkosítás",
+    "decrypt": "Dekódolás",
+    "restore": "Biztonsági másolat visszaállítása",
+    "showSecret": "Mutasd a titkot",
+    "hideSecret": "Titok elrejtése",
+    "scanqr": "QR-kód beolvasása"
+  },
+  "f": {
+    "search": "Keresés",
+    "appSecret": "Titkos kulcs",
+    "appName": "Alkalmazás neve",
+    "encPass": "Titkosító jelszó"
+  },
+  "t": {
+    "encryption": "Titkosítás",
+    "add": "Új alkalmazás",
+    "edit": "Konfigurálás",
+    "about": "{{appname}} - egy online generátor egyszeri jelszavak TOTP (RFC 6238) algoritmus alapján. A Google Authenticator mobilalkalmazás webalapú analógja. A {{appname}} nem rendelkezik szerverkóddal. Ez statikus szkriptek halmaza, amelyek csak a böngészőben futnak. Ezért nincs regisztrációnk, és minden adata csak az Ön böngészőjében tárolódik, és az Ön böngészőjén kívül senki sem fér hozzá.<br/><br/><b>Kapcsolódás:</b> A TOTP algoritmuson alapuló, egyszeri jelszavakat használó alkalmazásnak titkos kulcsot kell megadnia. Adja hozzá ezt a titkos kulcsot a {{appname}}-hez. Az alkalmazás neve tetszőlegesen megadható, ez a mező azért szükséges, hogy megértse, melyik alkalmazáshoz generál egyszeri jelszót. Ha webhelyet csatlakoztat, megadhatja ennek a webhelynek a nevét az alkalmazás nevében. Az alkalmazás hozzáadása után a {{appname}} 30 másodpercenként egyszeri jelszavakat generál ehhez az alkalmazáshoz.<br/><br/><b>Használat:</b> Adja hozzá a {{appname}}-t a böngésző könyvjelzőihez. Amikor a csatlakoztatott alkalmazás egyszeri jelszót kér, lépjen a {{appname}} oldalra, nézze meg az alkalmazás aktuális egyszeri jelszavát, és írja be az alkalmazás szükséges mezőjébe. Ha a csatlakoztatott alkalmazás és a {{appname}} ugyanazon az eszközön működik, akkor egyszerűen kattintson az aktuális egyszeri jelszóra, az átmásolódik a vágólapra, majd egyszerűen illessze be a jelszót az alkalmazás kívánt mezőjébe. Ha az egyszeri jelszó közvetlenül a másolás után megváltozott, nem kell újra másolnia, a legtöbb alkalmazás körülbelül 30-60 másodpercig veszi a korábbi egyszeri jelszót.<br/><br/><b>Vigyázat!</b> Minden {{appname}} adat csak az Ön böngészőjének memóriájában tárolódik (a szerverünkön nem tárolódnak). Amikor törli a böngésző gyorsítótárát vagy újratelepíti a böngészőt, a {{appname}}-ben tárolt összes adata törlődik. Ne felejtse el biztonságos helyre menteni titkos kulcsait, és biztonsági másolatot készíteni róluk, hogy szükség esetén visszaállíthassa alkalmazásait {{appname}}-re.<br/><br/><b>Vigyázat!</b> A TOTP algoritmus az aktuális időhöz van kötve. A {{appname}} csak akkor állítja elő a helyes egyszeri jelszavakat, ha az eszközön az idő megfelelően van beállítva.<br/><br/>Az alkalmazások biztonsági mentésből történő visszaállítása lecseréli a meglévő alkalmazások neveit, hozzáadja a hiányzó alkalmazásokat, és nem töröl semmit.<br/><br/><b>Adatvédelem:</b> A {{appname}} csak anonim és összesített látogatottsági statisztikákat gyűjthet. Személyes adatokat nem gyűjtünk.",
+    "appInstall": "Telepítse alkalmazásunkat a TOTP-kódok internet nélküli eléréséhez. Ez egy PWA alkalmazás, amelyet a böngésző telepít, letöltés nélkül, csak kattintson a telepítés gombra.",
+    "aboutEncryption": "A TOTP kódok adatbázisa nyílt formában a böngésző memóriájában tárolódik. Ha vírus kerül a készülékére, képes lesz ellopni ezeket az adatokat. A további védelem érdekében jelszóval titkosíthatja a böngészőjében tárolt adatokat.<br/><br/><b>Vigyázat!</b> A titkosítás engedélyezése után minden alkalommal meg kell adnia a megadott jelszót, amikor bejelentkezik a {{appname}} szolgáltatásba.<br/><br/><b>Vigyázat!</b> Ha a titkosítás engedélyezve van, a biztonsági mentési fájl is titkosítva lesz a megadott jelszóval. Biztonsági másolatból történő visszaállításkor ezt a jelszót kell megadnia.<br/><br/><b>Vigyázat!</b> A titkosítási jelszót nem lehet visszaállítani.<br/><br/>A titkosítás letiltásához mentse a jelszót üresen.",
+    "dataEncrypted": "Az adatok titkosítva vannak. Kérjük, adja meg a jelszót a visszafejtéshez. Ha megszakítja, a konfiguráció nem töltődik be, és törlődik a böngésző memóriájából.",
+    "fileEncrypted": "Az <b>{{file}}</b> fájl titkosítva van. Kérjük, adja meg a jelszót a visszafejtéshez. Ha megszakítja, a konfiguráció nem töltődik be."
+  }
+}

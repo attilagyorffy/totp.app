@@ -1,1 +1,67 @@
-{"abbr":"EN","code":"en","title":"English","meta":{"title":"Online one-time password generator / TOTP (Google Authenticator) Online","desc":"{{appname}} - is a online generator of one-time passwords, based on TOTP (RFC 6238) algorithm. A web-based analog of the Google Authenticator mobile application.","keys":"totp, google authenticator, one-time password, online"},"e":{"invalidSecret":"Invalid secret key","invalidName":"Invalid application name","appExists":"Existing application <b>{{name}}</b> has same secret","backupBadFile":"Error in backup file","storedConfigError":"Stored config error","decryptFailed":"Unable to decrypt, most likely the password is incorrect"},"m":{"copiedToBuffer":"Copied to buffer","appAdded":"Application <b>{{name}}</b> added","appDeleted":"Application <b>{{name}}</b> deleted","appSaved":"Application <b>{{name}}</b> saved","codeCopied":"Code for <b>{{name}}</b> is copied to clipboard","secretCopied":"Secret code for <b>{{name}}</b> is copied to clipboard","backupRestored":"Backup restored<br/>Added: <b>{{added}}</b><br/>Updated: <b>{{updated}}</b><br/>Errors: <b>{{errors}}</b>","scanned":"Scanned","encryptUpdated":"Encryption settings updated"},"q":{"appDel":"Are you sure to delete <b>{{name}}</b>?"},"k":{"appInstall":"Install app","yes":"Yes","no":"No","add":"Add","save":"Save","cancel":"Cancel","delete":"Delete","config":"Configure","configandsort":"Configure or move","copy":"Copy to buffer","backup":"Download backup","backupEncrypted":"Download encrypted backup","encryption":"Encryption","encrypt":"Encrypt","decrypt":"Decrypt","restore":"Restore backup","showSecret":"Show secret","hideSecret":"Hide secret","scanqr":"Scan QR"},"f":{"search":"Search","appSecret":"Secret key","appName":"Application name","encPass":"Encryption password"},"t":{"encryption":"Encryption","add":"New application","edit":"Configure","about":"{{appname}} - is a online generator of one-time passwords, based on TOTP (RFC 6238) algorithm. A web-based analog of the Google Authenticator mobile application. {{appname}} has no server code. It is a set of static scripts that work only in your browser. Therefore, we do not have registration, and all your data is stored only in your browser and no one except your browser has access to it.<br/><br/><b>How to connect:</b> An application using one-time passwords, based on TOTP algorithm, must provide a secret key. Add this secret key to {{appname}}. The application name can be specified any, this field is necessary so that you understand for which particular application a one-time password is generated. If you connect a site, you can specify the name of this site in the application name. After application is added, {{appname}} will generate one-time passwords for this application every 30 seconds.<br/><br/><b>How to use:</b> Add {{appname}} to your browser bookmarks. When the connected application requests a one-time password, go to {{appname}}, look at the current one-time password for this application and enter it into needed field in the application. If the connected application and {{appname}} used on the same device, you can simply click on the current one-time password, it will be copied to clipboard, then simply paste the password into the needed field of the application. If the one-time password changed immediately after you copied it, you do not have to copy it again, most applications take the previous one-time password for about 30-60 seconds.<br/><br/><b>Caution!</b> All {{appname}} data is stored only in the memory of your browser (is not stored on our server). When you clear browser cache or reinstall browser, all your data on {{appname}} will be deleted. Do not forget to save your secret keys in a safe place and make their backup copies so that if necessary, you can restore your applications to {{appname}}.<br/><br/><b>Caution!</b> The TOTP algorithm is tied to the current time. {{appname}} will generate the correct one-time passwords only if the time on your device is set correctly.<br/><br/>Restoring applications from backup is replaces names of existing applications, adds missing applications, and does not delete anything.<br/><br/><b>Privacy:</b> {{appname}} may collect only anonymized and aggregated visit statistics. We do not collect any personal data.","appInstall":"Install our app to access TOTP codes without internet. This is a PWA app, it is installed by browser without downloading, just click the install button.","aboutEncryption":"Your TOTP secrets database is stored in your browser memory in an open form. If a virus gets onto your device, it can steal this data. For additional protection, you can encrypt the data stored in your browser with a password.<br/><br/><b>Caution!</b> After you enable encryption, you will need to enter the specified password every time you log in to {{appname}}.<br/><br/><b>Caution!</b> When you enable encryption, the backup file will also be encrypted with the specified password. When restoring from a backup, you will need to enter this password.<br/><br/><b>Caution!</b> The encryption password cannot be restored.<br/><br/>To disable encryption, save the empty password.","dataEncrypted":"The data is encrypted. Enter the password to decrypt. If you cancel, the configuration will not be loaded and may be deleted from the browser memory.","fileEncrypted":"File <b>{{file}}</b> is encrypted. Enter password to decrypt. If you cancel, the configuration will not be loaded."}}
+{
+  "abbr": "EN",
+  "code": "en",
+  "title": "English",
+  "meta": {
+    "title": "Online one-time password generator / TOTP (Google Authenticator) Online",
+    "desc": "{{appname}} - is a online generator of one-time passwords, based on TOTP (RFC 6238) algorithm. A web-based analog of the Google Authenticator mobile application.",
+    "keys": "totp, google authenticator, one-time password, online"
+  },
+  "e": {
+    "invalidSecret": "Invalid secret key",
+    "invalidName": "Invalid application name",
+    "appExists": "Existing application <b>{{name}}</b> has same secret",
+    "backupBadFile": "Error in backup file",
+    "storedConfigError": "Stored config error",
+    "decryptFailed": "Unable to decrypt, most likely the password is incorrect"
+  },
+  "m": {
+    "copiedToBuffer": "Copied to buffer",
+    "appAdded": "Application <b>{{name}}</b> added",
+    "appDeleted": "Application <b>{{name}}</b> deleted",
+    "appSaved": "Application <b>{{name}}</b> saved",
+    "codeCopied": "Code for <b>{{name}}</b> is copied to clipboard",
+    "secretCopied": "Secret code for <b>{{name}}</b> is copied to clipboard",
+    "backupRestored": "Backup restored<br/>Added: <b>{{added}}</b><br/>Updated: <b>{{updated}}</b><br/>Errors: <b>{{errors}}</b>",
+    "scanned": "Scanned",
+    "encryptUpdated": "Encryption settings updated"
+  },
+  "q": { "appDel": "Are you sure to delete <b>{{name}}</b>?" },
+  "k": {
+    "appInstall": "Install app",
+    "yes": "Yes",
+    "no": "No",
+    "add": "Add",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "config": "Configure",
+    "configandsort": "Configure or move",
+    "copy": "Copy to buffer",
+    "backup": "Download backup",
+    "backupEncrypted": "Download encrypted backup",
+    "encryption": "Encryption",
+    "encrypt": "Encrypt",
+    "decrypt": "Decrypt",
+    "restore": "Restore backup",
+    "showSecret": "Show secret",
+    "hideSecret": "Hide secret",
+    "scanqr": "Scan QR"
+  },
+  "f": {
+    "search": "Search",
+    "appSecret": "Secret key",
+    "appName": "Application name",
+    "encPass": "Encryption password"
+  },
+  "t": {
+    "encryption": "Encryption",
+    "add": "New application",
+    "edit": "Configure",
+    "about": "{{appname}} - is a online generator of one-time passwords, based on TOTP (RFC 6238) algorithm. A web-based analog of the Google Authenticator mobile application. {{appname}} has no server code. It is a set of static scripts that work only in your browser. Therefore, we do not have registration, and all your data is stored only in your browser and no one except your browser has access to it.<br/><br/><b>How to connect:</b> An application using one-time passwords, based on TOTP algorithm, must provide a secret key. Add this secret key to {{appname}}. The application name can be specified any, this field is necessary so that you understand for which particular application a one-time password is generated. If you connect a site, you can specify the name of this site in the application name. After application is added, {{appname}} will generate one-time passwords for this application every 30 seconds.<br/><br/><b>How to use:</b> Add {{appname}} to your browser bookmarks. When the connected application requests a one-time password, go to {{appname}}, look at the current one-time password for this application and enter it into needed field in the application. If the connected application and {{appname}} used on the same device, you can simply click on the current one-time password, it will be copied to clipboard, then simply paste the password into the needed field of the application. If the one-time password changed immediately after you copied it, you do not have to copy it again, most applications take the previous one-time password for about 30-60 seconds.<br/><br/><b>Caution!</b> All {{appname}} data is stored only in the memory of your browser (is not stored on our server). When you clear browser cache or reinstall browser, all your data on {{appname}} will be deleted. Do not forget to save your secret keys in a safe place and make their backup copies so that if necessary, you can restore your applications to {{appname}}.<br/><br/><b>Caution!</b> The TOTP algorithm is tied to the current time. {{appname}} will generate the correct one-time passwords only if the time on your device is set correctly.<br/><br/>Restoring applications from backup is replaces names of existing applications, adds missing applications, and does not delete anything.<br/><br/><b>Privacy:</b> {{appname}} may collect only anonymized and aggregated visit statistics. We do not collect any personal data.",
+    "appInstall": "Install our app to access TOTP codes without internet. This is a PWA app, it is installed by browser without downloading, just click the install button.",
+    "aboutEncryption": "Your TOTP secrets database is stored in your browser memory in an open form. If a virus gets onto your device, it can steal this data. For additional protection, you can encrypt the data stored in your browser with a password.<br/><br/><b>Caution!</b> After you enable encryption, you will need to enter the specified password every time you log in to {{appname}}.<br/><br/><b>Caution!</b> When you enable encryption, the backup file will also be encrypted with the specified password. When restoring from a backup, you will need to enter this password.<br/><br/><b>Caution!</b> The encryption password cannot be restored.<br/><br/>To disable encryption, save the empty password.",
+    "dataEncrypted": "The data is encrypted. Enter the password to decrypt. If you cancel, the configuration will not be loaded and may be deleted from the browser memory.",
+    "fileEncrypted": "File <b>{{file}}</b> is encrypted. Enter password to decrypt. If you cancel, the configuration will not be loaded."
+  }
+}

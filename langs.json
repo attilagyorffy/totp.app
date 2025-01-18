@@ -1,1 +1,9 @@
-[{"code":"en","abbr":"EN","title":"English"},{"code":"de","abbr":"DE","title":"Deutsch"},{"code":"es","abbr":"ES","title":"Español"},{"code":"fr","abbr":"FR","title":"Français"},{"code":"hu","abbr":"HU","title":"Magyar"},{"code":"ru","abbr":"RU","title":"Русский"},{"code":"ua","abbr":"UA","title":"Українська"}]
+[
+  { "code": "en", "abbr": "EN", "title": "English" },
+  { "code": "de", "abbr": "DE", "title": "Deutsch" },
+  { "code": "es", "abbr": "ES", "title": "Español" },
+  { "code": "fr", "abbr": "FR", "title": "Français" },
+  { "code": "hu", "abbr": "HU", "title": "Magyar" },
+  { "code": "ru", "abbr": "RU", "title": "Русский" },
+  { "code": "ua", "abbr": "UA", "title": "Українська" }
+]

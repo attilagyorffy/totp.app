@@ -1,3 +1,3 @@
-const f = async () => { }
+const f = async () => {};
 
 export default f;
